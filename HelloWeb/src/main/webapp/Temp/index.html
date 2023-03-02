@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>반갑습니다. 김인규입니다.</h3>
+	
+	<p>POST 요청</p>
+	<!--  http://Localhost:8081/HelloWeb/first -->
+	<form action="../first"method="post"> 
+		<input type="text" name="id"><br>
+		<input type="password" name="pw"><br>
+		<input type="submit" value="Send">
+	</form>
+	<p />
+	<a href="../first?id=guest&pw=1234&tset=1111">Get요청!!!.</a>
+	<!-- a태그는 무조건 Get방식 요청 -->
+</body>
+</html>
